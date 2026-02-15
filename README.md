@@ -1,4 +1,4 @@
-<img width="1170" height="787" alt="image" src="https://github.com/user-attachments/assets/f7fb0d23-3413-4429-a12e-6e1c1195a55f" /># Incremental-Data-Ingestion-Pipeline
+# Incremental-Data-Ingestion-Pipeline
 This project demonstrates an incremental data ingestion pipeline built using Azure Data Factory (ADF) and Azure SQL Database. The pipeline is designed to load only new or updated records from a source file based on a timestamp watermark mechanism, avoiding full reloads and enabling efficient ETL processing.
 
 The ingestion process uses a JSON file to store the last processed timestamp and checks for new records before performing the data copy operation.
