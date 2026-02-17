@@ -32,7 +32,7 @@ A JSON file contains the last processed timestamp:
 
 The pipeline first runs a SQL/script query to count records where:
 
-updated_timestamp > last_timestamp
+**updated_timestamp > last_timestamp**
 
 3. Conditional Execution
 
