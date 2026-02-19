@@ -3,7 +3,7 @@ This project demonstrates an incremental data ingestion pipeline built using Azu
 
 The ingestion process uses a JSON file to store the last processed timestamp and checks for new records before performing the data copy operation.
 
-📌 Key Features
+📌 Key Features :
 
 Timestamp-based incremental load implementation
 
